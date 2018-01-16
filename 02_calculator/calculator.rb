@@ -20,7 +20,7 @@ s
 end
 
 def multiply (arr)
-m = 1
+m = 1 #initialiser la variable de stockage à 1 et non 0, sinon multiply = O
 
   for i in (0..arr.length-1) do
     m *= arr[i]
